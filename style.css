@@ -2,29 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    
 }
+
 
 body{
     background-color: rgb(252,252,252);
 }
 
 header {
+    position: fixed;
+    top: 0;
     width: 100%;
-    height: 97px;
-    position: absolute;
+    height: 80px;
     display: flex;
-    align-items: center;
-    justify-content: center; 
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    background-color: rgb(252,252,252);
 }
 
 .container{
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
     max-width: 1200px;
-    margin-left: 191px;
-    margin-right: 191px;
+    margin: 0 auto;
 }
 
 .logo-interior{
@@ -36,7 +36,12 @@ header {
 .logo-external{
     border: 10px solid  #1ABE84;
     border-radius: 50%;
-    margin-right: 415px;
+}
+
+.logo{
+    margin-right: 512px;
+    display: flex;
+    align-items: center;
 }
 
 nav{
@@ -65,7 +70,7 @@ button {
     margin-right: 18px;
     background-color: #FB8F1D;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 17px;
     border-radius: 8px;
     color: white;
     border:none ;
@@ -79,4 +84,56 @@ button:hover {
     border: 1px solid #FB8F1D;
     background-color: #fb901d00;
     color: #FB8F1D;
+}
+.main-section {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+
+.main-page{
+    width: 528px;
+    margin-left: 10px;
+}
+
+.main-section svg{
+    width: 600px;
+}
+
+.list {
+    width: 528px;
+}
+
+.main-section h1{
+    font-family: 'Anuphan', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+
+.ss{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+
+input{
+    width: 220px;
+    height: 52px;
+    margin-right: 30px;
+    margin-bottom: 35px;
+    outline: none;
+    box-shadow: none;
+    font-size: 15px;
+    padding: 0 auto;
+    padding-left: 30px;
+    border: 1px solid #AFB0B9;
+    border-radius: 8px;
+    margin-top: 10px;
 }
