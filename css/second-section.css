@@ -1,0 +1,42 @@
+.second-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.second-section__container {
+    position: relative;
+    max-width: 1200px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.second-section__container::after {
+    content: "";
+    position: absolute;
+    background: url(../assets/figure/element.svg);
+    width: 20px;
+    height: 20px;
+    top: 70%;
+    right: 100px;
+}
+
+.second-section__container::before {
+    content: "";
+    position: absolute;
+    background: url(../assets/figure/element3.svg);
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 50%;
+}
+
+.second-section__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

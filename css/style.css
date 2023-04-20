@@ -1,6 +1,11 @@
-@import url(footer.css);
 @import url(header.css);
 @import url(main-section.css);
+@import url(second-section.css);
+@import url(section-card.css);
+@import url(trending-card.css);
+@import url(review-section.css);
+@import url(footer.css);
+
 
 
 * {
@@ -45,4 +50,26 @@ a:hover {
 
 .logo{
     width: 44px;
+}
+
+.section__svg-photo{
+    width: 600px;
+}
+
+.title {
+    font-family: 'Anuphan', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.description {
+    width: 450px;
+    color: #7D7987;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 33px;
 }
