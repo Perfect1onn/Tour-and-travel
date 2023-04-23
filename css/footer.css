@@ -11,9 +11,12 @@
 
 .footer__container{
     max-width: 1200px;
+    width: 1200px;
     border-bottom: 1px solid #C4C4C4;
     padding-bottom: 88px;
+    margin-top: 80px;
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -22,7 +25,7 @@
     flex-direction: column;
 }
 
-.footer__item__info{
+.footer__info{
     width: 391px;
     color:#848484;
     font-size: 18px;
@@ -34,30 +37,22 @@
     font-weight: 300;
 }
 
-.footer__logo{
-    width: 44px;
-}
-
-.footer__item-link{
+.footer__link{
     text-decoration: none;
     font-size: 18px;
     color: #848484;
     font-weight: 300;
     margin-top: 16px;
-}
-
-
-.footer__items-links{
-    margin-left: 130px;
+    transition: all 0.3s linear;
 }
 
 .footer__icons{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    margin-top: 45px;
+    height: 100%;
 }
 
-.footer__icons__image{
+.footer__image{
     margin-left: 40px;
 }

@@ -1,5 +1,7 @@
 
 .header {
+    position: fixed;
+    background-color: rgb(252,252,252);
     width: 100%;
     height: 80px;
     display: flex;
@@ -10,24 +12,18 @@
 .header__container{
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
     max-width: 1200px;
-    margin-left: 191px;
-    margin-right: 191px;
-}
-
-.header__logo {
-    margin-right: 512px;
+    width: 1200px;
 }
 
 
 .header__nav-menu{
     display: flex;
     align-items: center;
-    width: 663px;
+    width: 700px;
 }
 
-.header__nav-menu .header_nav-menu_items{
+.header__nav-items{
     font-weight: 600;
     font-size: 16px;
     height: 19px;
@@ -37,6 +33,6 @@
     margin-right: 35px;
 }
 
-.header_nav-menu_items:hover{
+.header__nav-items:hover {
     color: #202336;
 }
